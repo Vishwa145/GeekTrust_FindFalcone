@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Matches snapshot: 1 1`] = `
+<div
+  className="result"
+>
+  <div
+    className="answer"
+  >
+    <h1>
+      <strong>
+        In search
+      </strong>
+    </h1>
+    <button>
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        close
+      </a>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Matches snapshot: 2 1`] = `
+<div
+  className="result"
+>
+  <div
+    className="answer"
+  >
+    <h1>
+      <strong>
+        In search
+      </strong>
+    </h1>
+    <button>
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        close
+      </a>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Matches snapshot: 3 1`] = `
+<div
+  className="result"
+>
+  <div
+    className="answer"
+  >
+    <h1>
+      <strong>
+        In search
+      </strong>
+    </h1>
+    <button>
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        close
+      </a>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Matches snapshot: 4 1`] = `
+<div
+  className="result"
+>
+  <div
+    className="answer"
+  >
+    <h1>
+      <strong>
+        In search
+      </strong>
+    </h1>
+    <button>
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        close
+      </a>
+    </button>
+  </div>
+</div>
+`;

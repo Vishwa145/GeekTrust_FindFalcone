@@ -1,0 +1,141 @@
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-image: url("https://wallpaperaccess.com/full/269150.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app {
+  display: flex;
+  flex-flow: column;
+}
+
+.error {
+  display: flex;
+  margin-top: 5%;
+  height: 68%;
+}
+
+.header {
+  flex-grow: 1;
+  margin: 1%;
+  padding: 1%;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #6d214f;
+  border-radius: 15%;
+  box-shadow: 5px 10px #888888;
+}
+
+.header > a:first-of-type {
+  border: 0px;
+  border-right: #ffffff 2px solid;
+}
+
+.header > a,
+label {
+  padding: 0.5%;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: x-large;
+}
+
+.form {
+  margin: 20vh 1.5vw 20vh;
+  display: inline-grid;
+  position: absolute;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  height: 60vh;
+  width: 97vw;
+}
+
+.form > div,
+h2 {
+  margin: 0%;
+  padding: 1vh 1vw;
+}
+
+.form::-webkit-scrollbar {
+  display: none;
+}
+
+.radiolabel {
+  color: #44bd32;
+}
+
+.warning {
+  position: absolute;
+  bottom: 25%;
+  left: 20%;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column-start: 1;
+  grid-column-end: 6;
+}
+
+.btn > a {
+  text-decoration: none;
+}
+
+.footer {
+  height: 6%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: #130f40;
+  color: #dff9fb;
+}
+
+.result {
+  height: inherit;
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.answer {
+  background-color: #6ab04c;
+  border-radius: 20%;
+  box-shadow: 10px 10px 5px;
+}
+
+.answer > h2 {
+  margin: 10%;
+}
+
+.answer > h1 {
+  text-align: center;
+}
+
+.answer > button {
+  float: right;
+  margin: 10%;
+  border-style: solid;
+  background-color: inherit;
+  font-size: 20px;
+}
+
+.answer > button > a {
+  text-decoration: none;
+}
+
+.answer > button:hover {
+  background-color: gray;
+}
